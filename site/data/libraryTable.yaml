@@ -278,13 +278,6 @@
   namePretty: Binary Authorization
   standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-binary-authorization
   version: v1.19.0
-- artifact: google-cloud-bom
-  gcpJavadocs: N/A
-  gcpProductDocs: N/A
-  libraryType: Product
-  namePretty: Google Cloud Bill of Materials
-  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-bom
-  version: v0.199.0-SNAPSHOT
 - artifact: google-cloud-build
   gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-build/latest/overview
   gcpProductDocs: https://cloud.google.com/cloud-build/
@@ -642,13 +635,6 @@
   namePretty: Cloud Internet of Things (IoT) Core
   standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-iot
   version: v2.20.0
-- artifact: google-cloud-java
-  gcpJavadocs: N/A
-  gcpProductDocs: N/A
-  libraryType: Product
-  namePretty: N/A
-  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-java
-  version: v1.14.0
 - artifact: google-cloud-kms
   gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-kms/latest/overview
   gcpProductDocs: https://cloud.google.com/kms
@@ -1195,13 +1181,6 @@
   namePretty: Identity Access Context Manager
   standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-identity-accesscontextmanager
   version: v1.21.0
-- artifact: google-java-format
-  gcpJavadocs: N/A
-  gcpProductDocs: N/A
-  libraryType: Product
-  namePretty: N/A
-  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-java-format
-  version: v1.17.0
 - artifact: google-maps-addressvalidation
   gcpJavadocs: https://cloud.google.com/java/docs/reference/google-maps-addressvalidation/latest/overview
   gcpProductDocs: https://developers.google.com/maps/documentation/address-validation/
