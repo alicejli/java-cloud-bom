@@ -38,7 +38,7 @@ filename = 'site/javadocHelpers/sdk-platform-java_javadocs_modules.txt'
 runtime_modules = get_runtime_modules(filename)
 
 # List of modules to ignore
-modules_to_skip = ['libraries-bom', 'gapic-libraries-bom','github-repo','gax-httpjson', 'google-cloud-shared-dependencies', 'first-party-dependencies', 'full-convergence-check', 'gapic-generator-java', 'java-cloud-bom-tests', 'gax-grpc', 'grpc-google-', 'proto-google-']
+modules_to_skip = ['libraries-bom', 'gapic-libraries-bom','github-repo','gax-httpjson', 'google-cloud-shared-dependencies', 'first-party-dependencies', 'full-convergence-check', 'gapic-generator-java', 'java-cloud-bom-tests', 'gax-grpc', 'grpc-google-', 'proto-google-', 'google-cloud-bom', 'google-cloud-java', 'google-java-format']
 regex_modules_to_skip = "(" + ")|(".join(modules_to_skip) + ")"
 
 # List of modules with special artifact names
