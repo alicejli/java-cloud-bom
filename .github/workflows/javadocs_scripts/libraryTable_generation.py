@@ -34,7 +34,7 @@ def get_runtime_modules(filename):
   return runtime_modules
 
 # Usage
-filename = 'site/data/sdk-platform-java_javadocs_modules.txt'
+filename = 'site/javadocHelpers/sdk-platform-java_javadocs_modules.txt'
 runtime_modules = get_runtime_modules(filename)
 
 # List of modules to ignore
