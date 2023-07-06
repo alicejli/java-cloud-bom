@@ -5,7 +5,7 @@ import toml
 
 def main():
   # Load the javaModulesVersions.yaml file
-  with open('./site/data/javaModulesVersions.yaml') as file:
+  with open('./site/javadocHelpers/javaModulesVersions.yaml') as file:
     variables = yaml.full_load(file)
 
   # Load the config.toml file
