@@ -1,3 +1,2 @@
 <!-- layouts/shortcodes/variable.html -->
-{{ $variableName := .Get 0 }}
-{{ index .Site.Data.javaModulesVersions $variableName }}
+{{ index .Site.Params.libraries_bom_version }}
