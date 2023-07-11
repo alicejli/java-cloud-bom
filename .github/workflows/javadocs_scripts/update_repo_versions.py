@@ -24,6 +24,6 @@ def update_repo_versions(file_paths, yaml_file):
         print(line, end='')
 
 file_paths = ['./site/javadocHelpers/repos_for_versionstxt.txt', './site/javadocHelpers/handwritten_libraries_javadocs_modules.txt']
-yaml_file = './site/data/javaModulesVersions.yaml'
+yaml_file = './site/javadocHelpers/javaModulesVersions.yaml'
 
 update_repo_versions(file_paths, yaml_file)

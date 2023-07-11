@@ -4,16 +4,16 @@ import yaml
 import re
 
 # Load the yaml files
-with open('site/data/javaModulesVersions.yaml', 'r') as f:
+with open('site/javadocHelpers/javaModulesVersions.yaml', 'r') as f:
   javaModuleList = yaml.safe_load(f)
 
-with open('site/data/javaModulesLibraryReferenceLinks.yaml', 'r') as f:
+with open('site/javadocHelpers/javaModulesLibraryReferenceLinks.yaml', 'r') as f:
   libraryReference = yaml.safe_load(f)
 
-with open('site/data/javaModulesProductReferenceLinks.yaml', 'r') as f:
+with open('site/javadocHelpers/javaModulesProductReferenceLinks.yaml', 'r') as f:
   productReference = yaml.safe_load(f)
 
-with open('site/data/javaModulesNamePretty.yaml', 'r') as f:
+with open('site/javadocHelpers/javaModulesNamePretty.yaml', 'r') as f:
   nameReference = yaml.safe_load(f)
 
 # Get list of runtime_modules from sdk-platform-java_javadocs_modules.txt
@@ -95,5 +95,5 @@ for module, version in javaModuleList.items():
 output = sorted(output, key=lambda k: k['artifact'])
 
 # Write the output list to a new yaml file
-with open('site/data/libraryTable.yaml', 'w') as f:
+with open('site/javadocHelpers/libraryTable.yaml', 'w') as f:
   yaml.dump(output, f)

@@ -31,9 +31,9 @@ for root, dirs, files in os.walk('.'):
 
 # File path and data dictionary mapping
 file_data_mapping = {
-    'site/data/javaModulesProductReferenceLinks.yaml': product_documentation_dict,
-    'site/data/javaModulesLibraryReferenceLinks.yaml': client_documentation_dict,
-    'site/data/javaModulesNamePretty.yaml': api_namepretty_dict
+    'site/javadocHelpers/javaModulesProductReferenceLinks.yaml': product_documentation_dict,
+    'site/javadocHelpers/javaModulesLibraryReferenceLinks.yaml': client_documentation_dict,
+    'site/javadocHelpers/javaModulesNamePretty.yaml': api_namepretty_dict
 }
 
 # Update existing files with new data

@@ -1,0 +1,91 @@
+- artifact: google-cloud-bigquery
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-bigquery/latest/history
+  gcpProductDocs: https://cloud.google.com/bigquery
+  libraryType: Product
+  namePretty: Cloud BigQuery
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-bigquery
+  version: v2.29.0
+- artifact: google-cloud-bigquerystorage-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-bigquerystorage/latest/history
+  gcpProductDocs: https://cloud.google.com/bigquery/docs/reference/storage/
+  libraryType: Product
+  namePretty: BigQuery Storage
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-bigquerystorage-bom
+  version: v2.39.1
+- artifact: google-cloud-bigtable-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-bigtable/latest/history
+  gcpProductDocs: https://cloud.google.com/bigtable
+  libraryType: Product
+  namePretty: Cloud Bigtable
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-bigtable-bom
+  version: v2.24.1
+- artifact: google-cloud-datastore-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-datastore/latest/history
+  gcpProductDocs: https://cloud.google.com/datastore
+  libraryType: Product
+  namePretty: Cloud Datastore
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-datastore-bom
+  version: v2.16.0
+- artifact: google-cloud-firestore-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-firestore/latest/history
+  gcpProductDocs: https://cloud.google.com/firestore
+  libraryType: Product
+  namePretty: Cloud Firestore
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-firestore-bom
+  version: v3.13.2
+- artifact: google-cloud-logging-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-logging/latest/history
+  gcpProductDocs: https://cloud.google.com/logging/docs
+  libraryType: Product
+  namePretty: Cloud Logging
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-logging-bom
+  version: v3.15.5
+- artifact: google-cloud-logging-logback
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-logging-logback/latest/history
+  gcpProductDocs: https://cloud.google.com/logging/docs/setup/java#logback_appender_for
+  libraryType: Product
+  namePretty: Cloud Logging Logback Appender
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-logging-logback
+  version: v0.130.17-alpha
+- artifact: google-cloud-nio
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-nio/latest/history
+  gcpProductDocs: https://cloud.google.com/storage/docs
+  libraryType: Product
+  namePretty: NIO Filesystem Provider for Google Cloud Storage
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-nio
+  version: v0.126.18
+- artifact: google-cloud-pubsub-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-pubsub/latest/history
+  gcpProductDocs: https://cloud.google.com/pubsub/docs/
+  libraryType: Product
+  namePretty: Cloud Pub/Sub
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-pubsub-bom
+  version: v1.123.17
+- artifact: google-cloud-pubsublite-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-pubsublite/latest/history
+  gcpProductDocs: https://cloud.google.com/pubsub/lite/docs
+  libraryType: Product
+  namePretty: Cloud Pub/Sub Lite
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-pubsublite-bom
+  version: v1.12.10
+- artifact: google-cloud-spanner-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-spanner/latest/history
+  gcpProductDocs: https://cloud.google.com/spanner/docs/
+  libraryType: Product
+  namePretty: Cloud Spanner
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-spanner-bom
+  version: v6.43.1
+- artifact: google-cloud-spanner-jdbc
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-spanner-jdbc/latest/history
+  gcpProductDocs: https://cloud.google.com/spanner/docs/use-oss-jdbc
+  libraryType: Product
+  namePretty: Google Cloud Spanner JDBC
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-spanner-jdbc
+  version: v2.11.2
+- artifact: google-cloud-storage-bom
+  gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-storage/latest/history
+  gcpProductDocs: https://cloud.google.com/storage
+  libraryType: Product
+  namePretty: Cloud Storage
+  standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-storage-bom
+  version: v2.22.5
