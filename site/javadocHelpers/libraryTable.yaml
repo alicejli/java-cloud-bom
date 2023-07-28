@@ -564,7 +564,7 @@
   libraryType: Product
   namePretty: Cloud Firestore
   standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-firestore-bom
-  version: v3.13.6
+  version: v3.13.7
 - artifact: google-cloud-functions
   gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-functions/latest/overview
   gcpProductDocs: https://cloud.google.com/functions
@@ -865,7 +865,7 @@
   libraryType: Product
   namePretty: Cloud Pub/Sub
   standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-pubsub-bom
-  version: v1.123.20
+  version: v1.124.0
 - artifact: google-cloud-pubsublite-bom
   gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-pubsublite/latest/history
   gcpProductDocs: https://cloud.google.com/pubsub/lite/docs
@@ -1019,7 +1019,7 @@
   libraryType: Product
   namePretty: Google Cloud Spanner JDBC
   standardJavadocs: https://alicejli.github.io/java-cloud-bom/google-cloud-spanner-jdbc
-  version: v2.11.4
+  version: v2.11.5
 - artifact: google-cloud-speech
   gcpJavadocs: https://cloud.google.com/java/docs/reference/google-cloud-speech/latest/overview
   gcpProductDocs: https://cloud.google.com/speech-to-text/docs/
