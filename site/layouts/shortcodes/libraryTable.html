@@ -1,3 +1,5 @@
+{{ $yamlData := readFile "javadocHelpers/libraryTable.yaml" }}
+{{ $libraryData := $yamlData | unmarshal }}
 <table>
   <thead>
   <tr>
@@ -9,32 +11,32 @@
   </tr>
   </thead>
   <tbody>
-  {{ range site.Data.libraryTable -}}
+  {{ range $libraryData }}
   <tr>
+    <td>{{ .artifact }}</td>
+    <td>{{ .libraryType }}</td>
     <td>
-      {{- .artifact -}}
-    </td>
-    <td>
-      {{- .libraryType -}}
-    </td>
-    <td>
-      <a href="{{- .standardJavadocs -}}">{{- .version -}}
-    </td>
-    <td>
-      {{ if eq .gcpJavadocs "N/A" -}}
+      {{ if .standardJavadocs }}
+      <a href="{{ .standardJavadocs }}">{{ .version }}</a>
+      {{ else }}
       N/A
-      {{ else -}}
-      <a href="{{- .gcpJavadocs -}}">{{- .version -}}
-        {{ end -}}
+      {{ end }}
     </td>
     <td>
-      {{ if eq .gcpProductDocs "N/A" -}}
+      {{ if .gcpJavadocs }}
+      <a href="{{ .gcpJavadocs }}">{{ .version }}</a>
+      {{ else }}
       N/A
-      {{ else -}}
-      <a href="{{- .gcpProductDocs -}}">{{- .namePretty -}}
-        {{ end -}}
+      {{ end }}
+    </td>
+    <td>
+      {{ if .gcpProductDocs }}
+      <a href="{{ .gcpProductDocs }}">{{ .namePretty }}</a>
+      {{ else }}
+      N/A
+      {{ end }}
     </td>
   </tr>
-  {{- end }}
+  {{ end }}
   </tbody>
 </table>
