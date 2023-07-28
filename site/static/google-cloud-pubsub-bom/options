@@ -17,10 +17,10 @@
 -docencoding
 'UTF-8'
 -doctitle
-'Google Cloud Pub/Sub Parent 1.123.20 API'
+'Google Cloud Pub/Sub Parent 1.124.0 API'
 -linkoffline
 'https://docs.oracle.com/javase/8/docs/api' '/home/runner/work/java-cloud-bom/java-cloud-bom/java-pubsub/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'Google Cloud Pub/Sub Parent 1.123.20 API'
+'Google Cloud Pub/Sub Parent 1.124.0 API'
