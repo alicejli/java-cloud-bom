@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.google.cloud.netapp.v1beta1"},{"l":"com.google.cloud.netapp.v1beta1.stub"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.google.cloud.netapp.v1"},{"l":"com.google.cloud.netapp.v1.stub"}]
