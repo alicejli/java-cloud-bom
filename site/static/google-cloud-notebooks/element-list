@@ -2,3 +2,5 @@ com.google.cloud.notebooks.v1
 com.google.cloud.notebooks.v1.stub
 com.google.cloud.notebooks.v1beta1
 com.google.cloud.notebooks.v1beta1.stub
+com.google.cloud.notebooks.v2
+com.google.cloud.notebooks.v2.stub

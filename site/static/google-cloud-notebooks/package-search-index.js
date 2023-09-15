@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.google.cloud.notebooks.v1"},{"l":"com.google.cloud.notebooks.v1.stub"},{"l":"com.google.cloud.notebooks.v1beta1"},{"l":"com.google.cloud.notebooks.v1beta1.stub"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.google.cloud.notebooks.v1"},{"l":"com.google.cloud.notebooks.v1.stub"},{"l":"com.google.cloud.notebooks.v1beta1"},{"l":"com.google.cloud.notebooks.v1beta1.stub"},{"l":"com.google.cloud.notebooks.v2"},{"l":"com.google.cloud.notebooks.v2.stub"}]
