@@ -5,3 +5,4 @@ com.google.cloud.storage.spi.v1
 com.google.cloud.storage.spi
 com.google.storage.v2
 com.google.storage.v2.stub
+com.google.cloud.storage.benchmarking
